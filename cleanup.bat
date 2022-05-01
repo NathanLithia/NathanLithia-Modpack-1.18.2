@@ -1,0 +1,3 @@
+echo cleaning up curse instance...
+RMDIR /S /Q downloads
+RMDIR /S /Q saves
