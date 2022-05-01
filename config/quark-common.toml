@@ -404,7 +404,7 @@
 	"Pat The Dogs" = true
 	"Note Block Mob Sounds" = true
 	"More Banner Layers" = true
-	"Lock Rotation" = true
+	"Lock Rotation" = false
 	"Hoe Harvesting" = true
 	"Grab Chickens" = true
 	"Glass Shard" = true
