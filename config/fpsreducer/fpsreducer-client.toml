@@ -33,7 +33,7 @@
 	hudEnabled = false
 	#Reference position of HUD.
 	#Range: 1 ~ 8
-	hudReferencePos = 3
+	hudReferencePos = 1
 	#HUD scale (default: 1.0)
 	#Range: 0.1 ~ 2.0
 	hudScale = 0.5
