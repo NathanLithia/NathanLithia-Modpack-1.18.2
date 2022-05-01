@@ -457,7 +457,7 @@
 		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
 
 	[tweaks.sign_editing]
-		"Requires Empty Hand" = false
+		"Requires Empty Hand" = true
 
 	[tweaks.replace_scaffolding]
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
