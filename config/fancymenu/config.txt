@@ -19,25 +19,6 @@ B:advancedmode = 'false';
 B:showcustomizationbuttons = 'true';
 
 
-##[mainmenu]
-
-B:hidebranding = 'true';
-B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
-B:hideforgenotifications = 'false';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
-B:hidesplashtext = 'false';
-S:splashtextfile = '';
-S:splashorientation = 'original';
-
-
 ##[loading]
 
 B:allowgameintroskip = 'true';
@@ -84,3 +65,8 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 F:uiscale = '1.0';
+
+
+##[compatibility]
+
+B:allow_level_registry_interactions = 'true';

@@ -16,8 +16,17 @@ worldedit_wand.png
 servers.dat
 /mods/clef
 /saves/
+/schematics/
+/journeymap/
+/jarmods/
+/fancymenu_data/
+/fancymenu_setups/
+/disabledmods/
+/crash-reports/
 /logs/
+ComplementaryReimagined_r1.2.2.zip
 ComplementaryShaders_v4.1_dev4.zip
+Quark Programmer Art.zip
 usernamecache.json
 usercache.json
 *.dat_old

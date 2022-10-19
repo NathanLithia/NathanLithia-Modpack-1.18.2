@@ -1,8 +1,8 @@
 
 [general]
-	"Enable 'q' Button" = false
+	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = true
+	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
@@ -135,7 +135,7 @@
 		"Replace Worldgen Chests" = true
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
-		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
+		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:end_city=quark:purpur_chest"]
 
 	[building.variant_bookshelves]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -324,10 +324,9 @@
 		# - <min_price> being the cheapest (in Emeralds) the map can be
 		# - <max_price> being the most expensive (in Emeralds) the map can be
 		# - <color> being a hex color (without the #) for the map to display. You can generate one here - https://htmlcolorcodes.com/
-		# - <name> being the display name of the map
 		#
 		#Here's an example of a map to locate Ice Mountains:
-		#minecraft:ice_mountains,2,8,14,7FE4FF,Ice Mountains Pathfinder Map
+		#minecraft:ice_mountains,2,8,14,7FE4FF
 		Customs = []
 		"Search Radius" = 6400
 		"Search Distance Increment" = 8
@@ -359,25 +358,15 @@
 		"Cloud Level Top" = 196
 
 	[tools.ancient_tomes]
-		#Set to 0 to not generate in Dungeons
-		"Dungeon Weight" = 20
-		#Set to 0 to not generate in Stronghold Libraries
-		"Library Weight" = 30
-		#Set to 0 to not generate in Bastions
-		"Bastion Weight" = 25
-		#Set to 0 to not generate in Woodland Mansions
-		"Woodland Mansion Weight" = 15
-		#Set to 0 to not generate in Nether Fortresses
-		"Nether Fortress Weight" = 0
-		#Set to 0 to not generate in Underwater Ruins
-		"Underwater Ruin Weight" = 0
-		#Set to 0 to not generate in Monster Boxes
-		"Monster Box Weight" = 5
+		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"
+		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "quark:misc/monster_box,5"]
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		"Overleveled Books Glow Rainbow" = true
+		#Master Librarians will offer to exchange Ancient Tomes, provided you give them a max-level Enchanted Book of the Tome's enchantment too.
+		"Librarians Exchange Ancient Tomes" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
@@ -404,12 +393,12 @@
 	"Pat The Dogs" = true
 	"Note Block Mob Sounds" = true
 	"More Banner Layers" = true
-	"Lock Rotation" = false
+	"Lock Rotation" = true
 	"Hoe Harvesting" = true
 	"Grab Chickens" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
-	Emotes = false
+	Emotes = true
 	"Dragon Scales" = true
 	"Double Door Opening" = true
 	"Compasses Work Everywhere" = true
@@ -455,9 +444,12 @@
 		#Which crops can be harvested?
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
 		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
+		#Which blocks should right click harvesting simulate a click on instead of breaking?
+		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
+		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
 
 	[tweaks.sign_editing]
-		"Requires Empty Hand" = true
+		"Requires Empty Hand" = false
 
 	[tweaks.replace_scaffolding]
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
@@ -1269,6 +1261,8 @@
 		"Enable Diamond Heart" = true
 		"Cautious Stonelings" = true
 		"Tamable Stonelings" = true
+		#Disabled if if Pathfinder Maps are disabled.
+		"Weald Pathfinder Maps" = true
 
 		[mobs.stonelings.dimensions]
 			"Is Blacklist" = false
@@ -1452,7 +1446,7 @@
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
-		"Enable L G B T Bees" = false
+		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
@@ -1521,6 +1515,7 @@
 	"Overlay Shader" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
+	"Enchantments Begone" = false
 	"Adjustable Chat" = false
 
 	[experimental.spawner_replacer]
@@ -1547,6 +1542,9 @@
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
 
+	[experimental.enchantments_begone]
+		"Enchantments To Begone" = []
+
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
 		"Vertical Shift" = 0
@@ -1558,7 +1556,7 @@
 	"Matrix Enchanting" = true
 	Magnets = true
 	Crate = true
-	Backpack = false
+	Backpack = true
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -1621,10 +1619,16 @@
 		"Normalize Rarity" = true
 		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
 		"Allow Underwater Enchanting" = true
+		#Candles with soul sand below them or below the bookshelves dampen enchantments instead of influence them.
+		"Soul Candles Invert" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
 		"Disallowed Enchantments" = []
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
+		#A minus sign before an enchantment will make the influence decrease the probability of that enchantment.
 		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
+		#An array of influences that other blocks should apply.
+		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
+		"States To Influences" = []
 		#Set to false to disable the ability to influence enchantment outcomes with candles
 		"Allow Influencing" = true
 		#The max amount of candles that can influence a single enchantment
