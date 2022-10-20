@@ -636,77 +636,6 @@
         }
       },
       {
-        "name": "JourneyMap",
-        "version": "journeymap-1.18.2-5.9.0beta2-forge",
-        "optional": true,
-        "file": "journeymap-1.18.2-5.9.0beta2-forge.jar",
-        "type": "mods",
-        "description": "Real-time mapping in game or in a web browser as you explore.",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "modrinthProject": {
-          "id": "lfHFW1mp",
-          "slug": "journeymap",
-          "project_type": "mod",
-          "team": "PdJt6Suh",
-          "title": "JourneyMap",
-          "description": "Real-time mapping in game or in a web browser as you explore.",
-          "body": "<h2><img style=\"text-align:center\" src=\"http://i.imgur.com/322B1np.png\" alt=\"JourneyMap\" width=\"194\" height=\"250\"></a></h2>\n<p style=\"text-align:left\"><strong><span style=\"font-size:18px\">Real-time mapping in game or in a web browser as you explore.</span></strong></p>\n<p style=\"text-align:left\">&nbsp;</p>\n<p><span>JourneyMap</span>&nbsp;is a client+server mod for&nbsp;<a href=\"/linkout?remoteUrl=https://forums.minecraftforge.net/\" rel=\"nofollow\">Forge</a>, <a href=\"/linkout?remoteUrl=https://fabricmc.net/\" rel=\"nofollow\">Fabric</a>, and <a href=\"/linkout?remoteUrl=https://quiltmc.org/\" rel=\"nofollow\">Quilt</a>&nbsp;which maps your Minecraft world in real-time as you explore. You can view the map in a web browser or in-game as a Minimap or full-screen.&nbsp;<br><br></p>\n<h4>Help and Documentation&nbsp;</h4>\n<ul>\n<li>Guides and tutorials: &nbsp;<a href=\"/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252f\" rel=\"nofollow\">http://journeymap.info</a></li>\n<li><strong>Support available on&nbsp;<a href=\"https://discord.gg/eP8gE69\" rel=\"nofollow\">JourneyMap Discord</a> server</strong></li>\n</ul>\n<p>&nbsp;</p>\n<h4>Server Admin?</h4>\n<p>Check out <a href=\"/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252fServer\" rel=\"nofollow\">http://journeymap.info/Server</a> for information and configuration details.</p>\n<p>&nbsp;</p>\n<h4>Need to generate large map images?</h4>\n<p>Check out the <strong><a href=\"https://github.com/TeamJM/journeymap-tools\" rel=\"nofollow\">JourneyMap Tools</a></strong> project.</p>\n<p>&nbsp;</p>",
-          "published": "2022-05-29T14:44:24.607795Z",
-          "updated": "2022-08-31T20:05:26.021492Z",
-          "status": "approved",
-          "license": {
-            "id": "arr",
-            "name": "All Rights Reserved",
-            "url": "https://cdn.modrinth.com/licenses/arr.txt"
-          },
-          "client_side": "optional",
-          "server_side": "optional",
-          "categories": [
-            "adventure",
-            "utility"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/lfHFW1mp/icon.png",
-          "issues_url": "https://github.com/TeamJM/journeymap/issues",
-          "source_url": "https://github.com/TeamJM/journeymap",
-          "wiki_url": "http://journeymap.info",
-          "discord_url": "https://discord.gg/eP8gE69",
-          "donation_urls": [],
-          "gallery": []
-        },
-        "modrinthVersion": {
-          "id": "keozjf6v",
-          "project_id": "lfHFW1mp",
-          "author_id": "kYOHYSUU",
-          "name": "journeymap-1.18.2-5.9.0beta2-forge",
-          "version_number": "1.18.2-5.9.0beta2-forge",
-          "changelog": "<!--\n  ~ JourneyMap Mod <journeymap.info> for Minecraft\n  ~ Copyright (c) 2011-2018  Techbrew Interactive, LLC <techbrew.net>.  All Rights Reserved.\n  -->\n\n<h1>JourneyMap 1.18.2-5.9.0beta2 for Minecraft 1.18.2</h1>\n<p><strong>Requirements:</strong></p>\n<ul>\n    <li>Java 17</li>\n    <li>Minecraft 1.18.2</li>\n    <li>forge 1.18.2-40.1.70</li>\n</ul>\n<p><strong>General Information:</strong></p>\n<ul>\n    <li>See <a href=\"http://journeymap.info/\">http://journeymap.info/</a> for information about how to install and use\n        this mod, rules about inclusion in modpacks, translation, etc.\n    </li>\n    <li>See <a href=\"http://journeymap.info/Support\">http://journeymap.info/Support</a>&nbsp;for information on getting\n        technical support.\n    </li>\n    <li>Implements <a href=\"https://github.com/TeamJM/journeymap-api\">JourneyMap API v1.18.2-1.9-SNAPSHOT</a></li>\n</ul>\n<p><strong>CHANGELOG (2022-08-09-19:20:56):</strong></p>\n\n<p>New in 1.18.2-5.9.0beta2</p>\n<ul>\n    <li>Fixed: Unknown mobs causing screen render issues.</li>\n    <li>Fixed: Minimap performance issues when addons draw many polygons on the map</li>\n    <li>Fixed: Prevent server and client sending packets if the mod is not on the other side.(Requires Minimum Forge Version 1.18.2-40.1.70)</li>\n</ul>",
-          "date_published": "2022-08-10T00:24:01.298217Z",
-          "version_type": "beta",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "3cf0a7d49c0ace6d6682c303e1ad24c74ee7cbe78e2d3d01dbf63c9a912521b58e711f3fe88d778973a999a717312b7507ec952fc80f4ecb3a4ab3242499953b",
-                "sha1": "0fe049bdf2c1a0417ab402cf91736dfb34af85c2"
-              },
-              "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/1.18.2-5.9.0beta2-forge/journeymap-1.18.2-5.9.0beta2-forge.jar",
-              "filename": "journeymap-1.18.2-5.9.0beta2-forge.jar",
-              "primary": true,
-              "size": 7025663
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.18.2"
-          ],
-          "loaders": [
-            "forge"
-          ]
-        }
-      },
-      {
         "name": "Wavey Capes",
         "version": "1.2.0 - Forge 1.18.x",
         "optional": true,
@@ -2419,77 +2348,6 @@
           ],
           "game_versions": [
             "1.18",
-            "1.18.1",
-            "1.18.2"
-          ],
-          "loaders": [
-            "forge"
-          ]
-        }
-      },
-      {
-        "name": "Item Stitching Fix",
-        "version": "Item Stitching Fix 2.1",
-        "optional": true,
-        "file": "itemstitchingfix-1.18.1-2.1.jar",
-        "type": "mods",
-        "description": "Removes the annoying gap in Item Models!",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "modrinthProject": {
-          "id": "ECF6YsLu",
-          "slug": "item-stitching-fix",
-          "project_type": "mod",
-          "team": "PFSZ6zh6",
-          "title": "Item Stitching Fix",
-          "description": "Removes the annoying gap in Item Models!",
-          "body": "<h1>Item Stitching Fix</h1>\n\n<img src=\"https://cf.way2muchnoise.eu/full_499326_downloads.svg\" alt=\"Downloads\">\n\nAs everyone knows, items are of course a thing in Minecraft, their model usually consisting of a 2D texture that the game automatically stretches out to be a single pixel wide. This is great, and works really well, but it is quite buggy. One of these main bugs is called item stitching- the top of the model being a bit off from the sides, creating an ugly transparent gap that's subtle but definitely there enough to drive you insane. Many people are reasonably annoyed by this stitching, myself included, so I decided to create a mod that fixes it- the very mod you're looking at now! This mod slaps the faces of the models back into place, preventing all ugly texture stitching and subtly making your game much more playable. *~ Description by EpicNecromancer*\n<br><br>\n\nThis mod is fully customizable, allowing you to select the algorithm with which you would like to fix this glitch! \n\n<img src=\"https://bugs.mojang.com/secure/attachment/140026/2017-05-19_18.05.58.png\" alt=\"Item Stitching Bug\">\n\n As seen above, this bug has been around since as early as Minecraft 1.8!\n<br><br>\n<h3>More Info</h3>\nThis mod is a port of a fabric mod, <a href=\"https://www.curseforge.com/minecraft/mc-mods/item-model-fix\">Item Model Fix</a> by PepperCode1!<br>\nTo find out more and talk to an awesome community, join the <a href=\"https://discord.gg/AVDeKuA3aj\">Discord</a>!",
-          "published": "2021-07-12T17:26:42.539227Z",
-          "updated": "2022-06-19T11:56:59.478565Z",
-          "status": "approved",
-          "license": {
-            "id": "lgpl-3",
-            "name": "GNU Lesser General Public License v3",
-            "url": "https://github.com/Cy4Shot/ItemStitchingFix/blob/main/LICENSE"
-          },
-          "client_side": "required",
-          "server_side": "unsupported",
-          "categories": [
-            "decoration",
-            "utility"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/ECF6YsLu/icon.png",
-          "issues_url": "https://github.com/Cy4Shot/ItemStitchingFix/issues",
-          "source_url": "https://github.com/Cy4Shot/ItemStitchingFix",
-          "discord_url": "https://discord.gg/AVDeKuA3aj",
-          "donation_urls": [],
-          "gallery": []
-        },
-        "modrinthVersion": {
-          "id": "Umb138E3",
-          "project_id": "ECF6YsLu",
-          "author_id": "nk40wfc7",
-          "name": "Item Stitching Fix 2.1",
-          "version_number": "2.1",
-          "changelog": "# What's new in 2.1?\n- Update to 1.18\n- Better Config\n- A new in game config GUI\n- Changing modes during runtime\n- Optimisation\n- Change sideness specification from BOTH to CLIENT #6 (@Griefed)",
-          "date_published": "2022-06-19T11:56:19.500884Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha1": "e22dab4275eb819c1f50bee93203aeb10d3ca3e6",
-                "sha512": "a5261388eb1713b8f4c380b75387de5e9279a9d16d927641fb86375d7929f4dcd1002c34dd30cd666d7d986f58a9c0e782f707f3f4b44ccd41ae90bc64811394"
-              },
-              "url": "https://cdn.modrinth.com/data/ECF6YsLu/versions/2.1/itemstitchingfix-1.18.1-2.1.jar",
-              "filename": "itemstitchingfix-1.18.1-2.1.jar",
-              "primary": true,
-              "size": 18671
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
             "1.18.1",
             "1.18.2"
           ],
@@ -19753,12 +19611,1155 @@
           "fileFingerprint": 675925253,
           "modId": 314906
         }
+      },
+      {
+        "name": "CameraOverhaul (Forge)",
+        "version": "cameraoverhaul-1.0-1.18.2.jar",
+        "optional": true,
+        "file": "cameraoverhaul-1.0-1.18.2.jar",
+        "type": "mods",
+        "description": "A forge port of Camera Overhaul. Makes gameplay more satisfying through the use of various camera tilting.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 443034,
+        "curseForgeFileId": 3709180,
+        "curseForgeProject": {
+          "id": 443034,
+          "name": "CameraOverhaul (Forge)",
+          "authors": [
+            {
+              "id": 355060,
+              "name": "Corgi_Taco",
+              "url": "https://www.curseforge.com/members/101137694-corgi_taco?username=corgi_taco"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A forge port of Camera Overhaul. Makes gameplay more satisfying through the use of various camera tilting.",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "camera-overhaul-forge",
+          "isFeatured": false,
+          "dateModified": "2022-03-23T06:25:42.39Z",
+          "dateCreated": "2021-02-03T22:07:04.5Z",
+          "dateReleased": "2022-03-23T06:23:56.157Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/camera-overhaul-forge",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/CorgiTaco/Minecraft-CameraOverhaul/issues",
+            "sourceUrl": "https://github.com/CorgiTaco/Minecraft-CameraOverhaul"
+          },
+          "logo": {
+            "id": 339503,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/339/503/256/256/637479868245164532.png",
+            "title": "637479868245164532.png",
+            "url": "https://media.forgecdn.net/avatars/339/503/637479868245164532.png",
+            "modId": 443034
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 3709180
+        },
+        "curseForgeFile": {
+          "id": 3709180,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "cameraoverhaul-1.0-1.18.2.jar",
+          "fileName": "cameraoverhaul-1.0-1.18.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-03-23T06:23:56.157Z",
+          "fileLength": 40535,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1949902744,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1941297720,
+              "name": "mirsario"
+            },
+            {
+              "fingerprint": 2302212369,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2814635918,
+              "name": "cameraoverhaul.mixins.json"
+            },
+            {
+              "fingerprint": 804715376,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 3187951260,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2375556192,
+              "name": "cameraoverhaul.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "1fa5c739148166983bfc1cfd5dddaa8ce9036128",
+              "algo": 1
+            },
+            {
+              "value": "f3c5b4c8c1752db45037b714ae281f94",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 2111891119,
+          "modId": 443034
+        }
+      },
+      {
+        "name": "Camera Mod",
+        "version": "[1.18.2] Camera Mod 1.18.2-1.0.5",
+        "optional": true,
+        "file": "camera-1.18.2-1.0.5.jar",
+        "type": "mods",
+        "description": "A working Camera in Minecraft!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 289310,
+        "curseForgeFileId": 3970106,
+        "curseForgeProject": {
+          "id": 289310,
+          "name": "Camera Mod",
+          "authors": [
+            {
+              "id": 188420,
+              "name": "henkelmax",
+              "url": "https://www.curseforge.com/members/20569971-henkelmax?username=henkelmax"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A working Camera in Minecraft!",
+          "categories": [
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Technology",
+              "slug": "technology",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology",
+              "dateModified": "2014-05-08T17:37:54.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 412,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/27/635351494745973439.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "camera-mod",
+          "isFeatured": false,
+          "dateModified": "2022-09-05T19:14:53.39Z",
+          "dateCreated": "2018-03-01T18:31:02.333Z",
+          "dateReleased": "2022-09-05T18:25:40.407Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/camera-mod",
+            "wikiUrl": "https://modrepo.de/minecraft/camera/overview",
+            "issuesUrl": "https://github.com/henkelmax/camera/issues",
+            "sourceUrl": "https://github.com/henkelmax/camera"
+          },
+          "logo": {
+            "id": 144334,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/144/334/256/256/636555258623630042.png",
+            "title": "636555258623630042.png",
+            "url": "https://media.forgecdn.net/avatars/144/334/636555258623630042.png",
+            "modId": 289310
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 3970107
+        },
+        "curseForgeFile": {
+          "id": 3970106,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[1.18.2] Camera Mod 1.18.2-1.0.5",
+          "fileName": "camera-1.18.2-1.0.5.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-09-05T18:24:39.313Z",
+          "fileLength": 291141,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 324717,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2507199432,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3663077757,
+              "name": "de"
+            },
+            {
+              "fingerprint": 2038773380,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2625967566,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1768365016,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 813777135,
+              "name": "camera.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6b8ca4472433de31730e4317c751e3502b678644",
+              "algo": 1
+            },
+            {
+              "value": "622b5f41f7566fb011a4f7a3fe741762",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 3268686124,
+          "modId": 289310
+        }
+      },
+      {
+        "name": "Not Enough Animations",
+        "version": "1.6.0 - Forge",
+        "optional": true,
+        "file": "notenoughanimations-forge-1.6.0-mc1.18.2.jar",
+        "type": "mods",
+        "description": "Bringing first-person animations to the third-person",
+        "disabled": true,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 433760,
+        "curseForgeFileId": 3739668,
+        "curseForgeProject": {
+          "id": 433760,
+          "name": "Not Enough Animations",
+          "authors": [
+            {
+              "id": 345023,
+              "name": "tr9zw",
+              "url": "https://www.curseforge.com/members/100212189-tr9zw?username=tr9zw"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Bringing first-person animations to the third-person",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "not-enough-animations",
+          "isFeatured": false,
+          "dateModified": "2022-08-10T17:14:03.097Z",
+          "dateCreated": "2021-01-04T23:50:54.253Z",
+          "dateReleased": "2022-08-02T20:47:17.837Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/tr7zw/NotEnoughAnimations/issues",
+            "sourceUrl": "https://github.com/tr7zw/NotEnoughAnimations"
+          },
+          "logo": {
+            "id": 329074,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/329/74/256/256/637454010542845990.png",
+            "title": "637454010542845990.png",
+            "url": "https://media.forgecdn.net/avatars/329/74/637454010542845990.png",
+            "modId": 433760
+          },
+          "allowModDistribution": false,
+          "screenshots": [],
+          "mainFileId": 3913249
+        },
+        "curseForgeFile": {
+          "id": 3739668,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "1.6.0 - Forge",
+          "fileName": "notenoughanimations-forge-1.6.0-mc1.18.2.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2022-04-07T20:17:50.527Z",
+          "fileLength": 399806,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3842681794,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3421239066,
+              "name": "LICENSE"
+            },
+            {
+              "fingerprint": 3668166654,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 4105253223,
+              "name": "notenoughanimations.mixins.json"
+            },
+            {
+              "fingerprint": 4187015750,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 195923037,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3993398760,
+              "name": "notenoughanimations.refmap.mixins.json"
+            },
+            {
+              "fingerprint": 608616724,
+              "name": "dev"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "d1d954139650befb005ffb11b608a571e728db94",
+              "algo": 1
+            },
+            {
+              "value": "46f12276b1308ab9bbc3400d943bfc87",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000001",
+              "gameVersion": "1.18.1",
+              "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+              "gameVersionName": "1.18.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000018",
+              "gameVersion": "1.18",
+              "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+              "gameVersionName": "1.18"
+            }
+          ],
+          "gameVersions": [
+            "1.18.1",
+            "1.18.2",
+            "Forge",
+            "1.18"
+          ],
+          "fileFingerprint": 1683996639,
+          "modId": 433760
+        }
+      },
+      {
+        "name": "First-person Model (Forge/Fabric)",
+        "version": "2.1.2 - Forge",
+        "optional": true,
+        "file": "firstperson-forge-2.1.2-mc1.18.2.jar",
+        "type": "mods",
+        "description": "Enables the third-person Model in first-person",
+        "disabled": true,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 333287,
+        "curseForgeFileId": 3919332,
+        "curseForgeProject": {
+          "id": 333287,
+          "name": "First-person Model (Forge/Fabric)",
+          "authors": [
+            {
+              "id": 236760,
+              "name": "tr9zw",
+              "url": "https://www.curseforge.com/members/100212189-tr9zw?username=tr9zw"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Enables the third-person Model in first-person",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "first-person-model",
+          "isFeatured": false,
+          "dateModified": "2022-10-05T15:44:42.957Z",
+          "dateCreated": "2019-08-01T15:22:02.097Z",
+          "dateReleased": "2022-10-05T15:36:55.74Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/first-person-model",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/tr7zw/FirstPersonModel-Fabric/issues",
+            "sourceUrl": "https://github.com/tr7zw/FirstPersonModel-Fabric"
+          },
+          "logo": {
+            "id": 216511,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/216/511/256/256/637002697221754383.png",
+            "title": "637002697221754383.png",
+            "url": "https://media.forgecdn.net/avatars/216/511/637002697221754383.png",
+            "modId": 333287
+          },
+          "allowModDistribution": false,
+          "screenshots": [],
+          "mainFileId": 4018929
+        },
+        "curseForgeFile": {
+          "id": 3919332,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "2.1.2 - Forge",
+          "fileName": "firstperson-forge-2.1.2-mc1.18.2.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2022-08-05T12:47:45.733Z",
+          "fileLength": 108930,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 433760,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1025421473,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2342347892,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 509699351,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 722598341,
+              "name": "firstpersonmod.forge.mixins.json"
+            },
+            {
+              "fingerprint": 582231995,
+              "name": "LICENSE"
+            },
+            {
+              "fingerprint": 3502711176,
+              "name": "firstperson.mixins.json"
+            },
+            {
+              "fingerprint": 2704081240,
+              "name": "firstperson.refmap.mixins.json"
+            },
+            {
+              "fingerprint": 940127130,
+              "name": "dev"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "a9930ca07c3b6cf230838ce763127638a5d1b321",
+              "algo": 1
+            },
+            {
+              "value": "c71acf4b1ca30dddf2cc5c15ffad2f42",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000001",
+              "gameVersion": "1.18.1",
+              "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+              "gameVersionName": "1.18.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000018",
+              "gameVersion": "1.18",
+              "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+              "gameVersionName": "1.18"
+            }
+          ],
+          "gameVersions": [
+            "1.18.1",
+            "1.18.2",
+            "Forge",
+            "1.18"
+          ],
+          "fileFingerprint": 17788902,
+          "modId": 333287
+        }
+      },
+      {
+        "name": "ItemPhysic Full",
+        "version": "ItemPhysic_v1.4.23_mc1.18.2.jar",
+        "optional": true,
+        "file": "ItemPhysic_v1.4.23_mc1.18.2.jar",
+        "type": "mods",
+        "description": "#enhancedphysics",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 258587,
+        "curseForgeFileId": 3683773,
+        "curseForgeProject": {
+          "id": 258587,
+          "name": "ItemPhysic Full",
+          "authors": [
+            {
+              "id": 154436,
+              "name": "CreativeMD",
+              "url": "https://www.curseforge.com/members/8685730-creativemd?username=creativemd"
+            }
+          ],
+          "gameId": 432,
+          "summary": "#enhancedphysics",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "itemphysic",
+          "isFeatured": false,
+          "dateModified": "2022-09-22T08:18:14.19Z",
+          "dateCreated": "2017-02-02T15:59:28.427Z",
+          "dateReleased": "2022-09-22T08:11:24.997Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/itemphysic",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/CreativeMD/ItemPhysic/issues",
+            "sourceUrl": "https://github.com/CreativeMD/ItemPhysic"
+          },
+          "logo": {
+            "id": 87478,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/87/478/256/256/636216263684584171.png",
+            "title": "636216263684584171.png",
+            "url": "https://media.forgecdn.net/avatars/87/478/636216263684584171.png",
+            "modId": 258587
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4000458
+        },
+        "curseForgeFile": {
+          "id": 3683773,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ItemPhysic_v1.4.23_mc1.18.2.jar",
+          "fileName": "ItemPhysic_v1.4.23_mc1.18.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-03-10T14:32:21.347Z",
+          "fileLength": 43791,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 257814,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1928949021,
+              "name": "itemphysic.png"
+            },
+            {
+              "fingerprint": 3467476525,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2800807023,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2085690386,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3117508973,
+              "name": "team"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "023226ab54a42a1f508731b4d839bfcbc7a9a339",
+              "algo": 1
+            },
+            {
+              "value": "8ab319f32a0ff0a0669fc63e10d63e77",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 675050096,
+          "modId": 258587
+        }
+      },
+      {
+        "name": "Item Stitching Fix",
+        "version": "Item Stitching Fix 2.1",
+        "optional": true,
+        "file": "itemstitchingfix-1.18.1-2.1.jar",
+        "type": "mods",
+        "description": "Fixes the annoying gap in your Item Models in Minecraft!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 499326,
+        "curseForgeFileId": 3838604,
+        "curseForgeProject": {
+          "id": 499326,
+          "name": "Item Stitching Fix",
+          "authors": [
+            {
+              "id": 415641,
+              "name": "cy4sh0t",
+              "url": "https://www.curseforge.com/members/101121418-cy4sh0t?username=cy4sh0t"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Fixes the annoying gap in your Item Models in Minecraft!",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "item-stitching-fix",
+          "isFeatured": false,
+          "dateModified": "2022-06-19T12:01:13.873Z",
+          "dateCreated": "2021-06-30T11:47:49.183Z",
+          "dateReleased": "2022-06-19T11:53:35.63Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/item-stitching-fix",
+            "issuesUrl": "https://github.com/Cy4Shot/ItemStitchingFix/issues",
+            "sourceUrl": "https://github.com/Cy4Shot/ItemStitchingFix"
+          },
+          "logo": {
+            "id": 400923,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/400/923/256/256/637606504692151343.png",
+            "title": "637606504692151343.png",
+            "url": "https://media.forgecdn.net/avatars/400/923/637606504692151343.png",
+            "modId": 499326
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 385836,
+              "description": "Gap in sword has been fixed.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/385/836/310/172/untitled-1.png",
+              "title": "Item Stitching Fix",
+              "url": "https://media.forgecdn.net/attachments/385/836/untitled-1.png",
+              "modId": 499326
+            }
+          ],
+          "mainFileId": 3838605
+        },
+        "curseForgeFile": {
+          "id": 3838604,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Item Stitching Fix 2.1",
+          "fileName": "itemstitchingfix-1.18.1-2.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-06-19T11:52:51.013Z",
+          "fileLength": 18671,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 4259702957,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1179784301,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3997370825,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3721951441,
+              "name": "itemstitchingfix.mixins.json"
+            },
+            {
+              "fingerprint": 3940363918,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 3687403166,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2876688868,
+              "name": "itemstitchingfix.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "e22dab4275eb819c1f50bee93203aeb10d3ca3e6",
+              "algo": 1
+            },
+            {
+              "value": "3c0090d5af8204c4c6fc0a1d83004e87",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000001",
+              "gameVersion": "1.18.1",
+              "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+              "gameVersionName": "1.18.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.1",
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 3042761892,
+          "modId": 499326
+        }
+      },
+      {
+        "name": "Dynamic Surroundings Resurrected",
+        "version": "DynamicSurroundings-5.0.0.4",
+        "optional": true,
+        "file": "DynamicSurroundings-5.0.0.4.jar",
+        "type": "mods",
+        "description": "A Fork and Resurrection of Dynamic Surroundings for Forge 1.18.2+",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 630188,
+        "curseForgeFileId": 3819980,
+        "curseForgeProject": {
+          "id": 630188,
+          "name": "Dynamic Surroundings Resurrected",
+          "authors": [
+            {
+              "id": 556440,
+              "name": "theNyfaria",
+              "url": "https://www.curseforge.com/members/606859-thenyfaria?username=thenyfaria"
+            },
+            {
+              "id": 556443,
+              "name": "SizableShrimp",
+              "url": "https://www.curseforge.com/members/45115257-sizableshrimp?username=sizableshrimp"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A Fork and Resurrection of Dynamic Surroundings for Forge 1.18.2+",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "dynamic-surrounding-resurrected",
+          "isFeatured": false,
+          "dateModified": "2022-09-02T15:56:36.667Z",
+          "dateCreated": "2022-06-03T04:17:09.173Z",
+          "dateReleased": "2022-09-02T15:50:35.18Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dynamic-surrounding-resurrected",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Nyfaria/DynamicSurroundingsResurrected/issues",
+            "sourceUrl": "https://github.com/Nyfaria/DynamicSurroundingsResurrected"
+          },
+          "logo": {
+            "id": 555154,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/555/154/256/256/637898266292135501.png",
+            "title": "637898266292135501.png",
+            "url": "https://media.forgecdn.net/avatars/555/154/637898266292135501.png",
+            "modId": 630188
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 3963888
+        },
+        "curseForgeFile": {
+          "id": 3819980,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "DynamicSurroundings-5.0.0.4",
+          "fileName": "DynamicSurroundings-5.0.0.4.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-06-06T19:49:21.31Z",
+          "fileLength": 14834116,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3197279415,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1462247750,
+              "name": "org"
+            },
+            {
+              "fingerprint": 2763402132,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 994046958,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 2696165302,
+              "name": "mixins.dsurround.json"
+            },
+            {
+              "fingerprint": 57793126,
+              "name": "mixins.environs.json"
+            },
+            {
+              "fingerprint": 1504199311,
+              "name": "mixins.mobeffects.json"
+            },
+            {
+              "fingerprint": 3986980656,
+              "name": "mixins.sndctrl.json"
+            },
+            {
+              "fingerprint": 543655607,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 511223574,
+              "name": "mixins.dsurround.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "ba03eb7e71cff7ff037935db93f2eea86199a1bf",
+              "algo": 1
+            },
+            {
+              "value": "55e70883bce620d02c6fae80732d09c4",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 932675147,
+          "modId": 630188
+        }
       }
     ],
     "ignoredUpdates": [],
     "vanillaInstance": true,
-    "lastPlayed": 1666176516251,
-    "numPlays": 10
+    "lastPlayed": 1666246808205,
+    "numPlays": 16
   },
   "id": "1.18.2",
   "complianceLevel": 1,
@@ -19904,10 +20905,10 @@
   "minimumLauncherVersion": "21",
   "assetIndex": {
     "id": "1.18",
-    "sha1": "de57d9f6d65a980f86df431603287248d4f148b5",
-    "size": 348532,
-    "url": "https://launchermeta.mojang.com/v1/packages/de57d9f6d65a980f86df431603287248d4f148b5/1.18.json",
-    "totalSize": 467473537
+    "sha1": "92aa15a18127b6f9e3f0e5a7d018be7ebb389703",
+    "size": 348726,
+    "url": "https://piston-meta.mojang.com/v1/packages/92aa15a18127b6f9e3f0e5a7d018be7ebb389703/1.18.json",
+    "totalSize": 468385313
   },
   "assets": "1.18",
   "downloads": {
